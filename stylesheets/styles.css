@@ -709,7 +709,7 @@ dt {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
 }
 #header nav {
-  max-width:640px;
+  max-width:720px;
   margin: 0 auto;
   padding: 0 10px;
   background: blue;
@@ -971,6 +971,9 @@ Background-image slideshow
     .cb-slideshow li div h3 { font-size: 80px }
 }
 
+footer{
+  text-align:center;
+}
 /* 
 =====
 Pushing footer down 
@@ -1000,3 +1003,14 @@ footer{
 }
 
 */
+
+.fancy{
+  font-size:30px;
+  font-family:"cursive";
+}
+
+#progress{
+  max-width:360px;
+  display: inline-block;
+  float: right;
+}
