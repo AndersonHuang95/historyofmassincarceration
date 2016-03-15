@@ -534,6 +534,14 @@ body {
   font: 14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #f0e7d5;
   font-weight: normal;
+  background: #252525;
+  background-attachment: fixed !important;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #2a2a29), color-stop(100%, #1c1c1c));
+  background: -webkit-linear-gradient(#2a2a29, #1c1c1c);
+  background: -moz-linear-gradient(#2a2a29, #1c1c1c);
+  background: -o-linear-gradient(#2a2a29, #1c1c1c);
+  background: -ms-linear-gradient(#2a2a29, #1c1c1c);
+  background: linear-gradient(#2a2a29, #1c1c1c);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -701,7 +709,7 @@ dt {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
 }
 #header nav {
-  max-width: 650px;
+  max-width:640px;
   margin: 0 auto;
   padding: 0 10px;
   background: blue;
@@ -719,13 +727,13 @@ dt {
 }
 #header nav li a {
   color: white;
-  border: 1px solid #5d910b;
+  border: 1px solid #808080;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #93bd20), color-stop(100%, #659e10));
-  background: -webkit-linear-gradient(#93bd20, #659e10);
-  background: -moz-linear-gradient(#93bd20, #659e10);
-  background: -o-linear-gradient(#93bd20, #659e10);
-  background: -ms-linear-gradient(#93bd20, #659e10);
-  background: linear-gradient(#93bd20, #659e10);
+  background: -webkit-linear-gradient(#FFFFFF, #000000);
+  background: -moz-linear-gradient(#FFFFFF, #000000);
+  background: -o-linear-gradient(#FFFFFF, #000000);
+  background: -ms-linear-gradient(#FFFFFF, #000000);
+  background: linear-gradient(#FFFFFF, #000000);
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   -o-border-radius: 2px;
@@ -762,14 +770,14 @@ dt {
   float: left;
   margin-left: 0px;
 }
-#header nav li.downloads {
+#header nav li.history {
   float: right;
-  margin-left: 6px;
+  margin-left: 15px;
 }
 #header nav li.title {
-  float: right;
+  float: left;
   margin-right: 10px;
-  font-size: 11px;
+  font-size: 20px;
 }
 
 section {
@@ -900,7 +908,7 @@ Background-image slideshow
     background-image: url(../images/slavery.jpg) 
 }
 .cb-slideshow li:nth-child(2) span { 
-    background-image: url(../images/natives.jpg);
+    background-image: url(../images/native.jpg);
     animation-delay: 6s; 
 }
 .cb-slideshow li:nth-child(3) span { 
@@ -962,3 +970,33 @@ Background-image slideshow
 @media screen and (max-width: 600px) { 
     .cb-slideshow li div h3 { font-size: 80px }
 }
+
+/* 
+=====
+Pushing footer down 
+=====
+
+
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -4em;
+}
+.footer, .push {
+}
+
+footer{
+  margin:10px;
+  font-size:18px;
+  opacity:1.0;
+  float:right;
+}
+
+*/
