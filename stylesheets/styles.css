@@ -974,43 +974,23 @@ Background-image slideshow
 footer{
   text-align:center;
 }
-/* 
-=====
-Pushing footer down 
-=====
 
-
-* {
-  margin: 0;
-}
-html, body {
-  height: 100%;
-}
-.wrapper {
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  margin: 0 auto -4em;
-}
-.footer, .push {
-}
-
-footer{
-  margin:10px;
-  font-size:18px;
-  opacity:1.0;
-  float:right;
-}
-
-*/
-
+/* Large Capital letter at beginning of every post */
 .fancy{
   font-size:30px;
   font-family:"cursive";
 }
 
+/* Picture */
 #progress{
   max-width:360px;
   display: inline-block;
   float: right;
+}
+
+#quote{
+  font-family:"sans-serif";
+  font-size:22px;
+  display: inline-block;
+  padding:40px 0px 40px 0px;
 }
