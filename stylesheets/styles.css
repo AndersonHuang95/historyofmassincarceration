@@ -981,7 +981,7 @@ footer{
   font-family:"cursive";
 }
 
-/* Picture */
+/* Pictures */
 #progress{
   max-width:360px;
   display: inline-block;
@@ -993,4 +993,26 @@ footer{
   font-size:22px;
   display: inline-block;
   padding:40px 0px 40px 0px;
+}
+
+#innercity{
+  width:50%;
+  display: inline-block;
+  float: left;
+  padding:10px;
+}
+
+#prisons{
+  display: inline-block;
+  padding:10px 0px 10px 0px;
+}
+
+#alternative{
+  display:inline-block; 
+  padding:10px 0px 10px 0px;
+}
+
+#homeboy{
+  display:inline-block;
+  padding:10px 0px 10px 0px;
 }
